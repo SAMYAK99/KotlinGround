@@ -4,7 +4,6 @@ fun main() {
     //(?), the Elvis operator (?:) and the not-null assertion operator (!!) operator.
 
 
-
     //null can't be assigned to a String
     // val name : String = null
 
