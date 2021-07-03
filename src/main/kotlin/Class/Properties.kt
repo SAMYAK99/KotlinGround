@@ -1,5 +1,10 @@
 package Class
 
+/*
+* Class is a blueprint of creating object.
+*
+* */
+
 // class className {  class header
 //         property
 //          member function

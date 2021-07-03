@@ -1,7 +1,9 @@
 fun main() {
 
-    //Null Safety in Kotlin can be achieved with the help of three operators, the safe call operator
-    //(?), the Elvis operator (?:) and the not-null assertion operator (!!) operator.
+    //Null Safety in Kotlin can be achieved with the help of three operators,
+    // the safe call operator (?),
+    // the Elvis operator (?:)
+    // and the not-null assertion operator (!!) operator.
 
 
     //null can't be assigned to a String

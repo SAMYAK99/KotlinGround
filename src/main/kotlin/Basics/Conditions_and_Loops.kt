@@ -14,6 +14,13 @@ fun main(){
         2 -> println("x==2")
         else -> print("otherwise")
     }
+    val time : Int = 10
+    when(time){
+        in 6..12 -> println("Morning")
+        in 12..18 -> println("AfterNoon")
+        else -> println("Night")
+    }
+
 
 
     // While Statements

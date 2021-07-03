@@ -1,6 +1,8 @@
 package Generics
 
 /*
+* Generics can work with differnet data types
+* 
 * Generic functions
 specify a type parameter during their declaration and any statement calling these functions, has to
 specify the type parameter while invoking the said function.

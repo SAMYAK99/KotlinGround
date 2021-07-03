@@ -3,7 +3,8 @@ fun main(){
     val num = arrayOf(1, 2, 3, 4)   //implicit type declaration
     val num1 = arrayOf<Int>(1, 2, 3) //explicit type declaration
 
-    for (i in 0..num.size-1){
+    // for loop in kt
+    for (i in 0 until num.size-1){
         print(" "+num[i])
     }
     println()
@@ -11,6 +12,7 @@ fun main(){
 
     val num2 = arrayOf(1, 2, 3, 4, 5)
 
+    // num.set(index,value)
     num.set(0, 10)  // set the first element equal to 10
     num.set(1, 6)   // set the secondelement equal to 6
 
