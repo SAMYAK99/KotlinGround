@@ -1,6 +1,7 @@
 fun main(){
 
     // Immutable List - Items added cannot be added or removed
+    // by default list are immutable
     val names = listOf<String>("Alan","Walker","DareDevil")
     println("Size of List : ${names.size}")
     println("Second Member ${names.get(1)}")    // names[1]
