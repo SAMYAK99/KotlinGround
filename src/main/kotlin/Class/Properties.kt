@@ -36,6 +36,7 @@ class Voter {
 
 fun main(){
 
+
     // Creating an object
     var obj : Voter = Voter()
 
