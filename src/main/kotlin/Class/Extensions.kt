@@ -1,9 +1,11 @@
 package Class
 
 /*
-* extend a class with new functionality
-   without having to inherit from the class or use design patterns such as Decorator.
-* Work as it is the member of the class
+*   extend a class with new functionality
+*   without having to inherit from the class or use design patterns such as Decorator.
+*   Work as it is the member of the class
+*
+*   Inline Keyword : Used for performance management as it doesn't create multiple instances
 */
 
 
