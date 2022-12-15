@@ -1,5 +1,7 @@
 package Features
 
+// Lazy Loading : Jab tk call nhi karoge tab tak use bhi hoga (memory efficient)
+
 class Delegation {
 
     // Memory effecient | used for heavy memory operations

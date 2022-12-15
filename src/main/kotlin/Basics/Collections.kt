@@ -39,6 +39,30 @@ fun main(){
     println("Items : ${nameClass.keys}")
 
 
+    // Filters
+    val anime = listOf("Jujutsu" , "AOT" , "DeathNote" , "Death")
+
+    // Filter will take the int and return the boolean
+    anime.filter {
+        it.startsWith("D")
+    }.forEach {
+        println(it)
+    }
+
+
+    // Transform : Converting 1 data value into another value
+    // Used to change the values of modified list
+    // map is used to tranform the data
+
+    val nums = listOf<Int>(1,2,3,4,5,6,7)
+
+    nums.filter {
+        it % 2 == 0
+    }.map {
+        it * it
+    }.forEach {
+        println(it)
+    }
 
 
 }

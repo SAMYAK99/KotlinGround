@@ -1,5 +1,7 @@
 package Features
 
+import java.lang.Integer.sum
+
 
 /*
 * Functional Programming : Normal Functions can be treated as objects
@@ -12,21 +14,6 @@ package Features
 * */
 class HigherOrderFunctions {
 
-
-    fun main(){
-
-        // Storing functions inside a variable
-        var a = ::sum
-        println(a(4,5))
-
-        calculator(3,4, :: sum)
-        val lambda = {x : Int , y  :Int -> x+y}
-
-        // Single parameter lambda does need to define the input : it can be used
-        val lambda2 : (Int) -> Int = {x -> x*x}
-        val lambda3 : (Int) -> Int = {it * it}
-    }
-
     // In functional programming
     fun sum(a : Int , b : Int) : Int {
         return a+b
@@ -38,4 +25,20 @@ class HigherOrderFunctions {
         println(res)
     }
 
+}
+
+fun main(){
+
+    // Storing functions inside a variable
+    var a = ::sum
+    println(a(4,5))
+
+    val ho = HigherOrderFunctions()
+
+    ho.calculator(3,4, :: sum)
+    val lambda = {x : Int , y  :Int -> x+y}
+
+    // Single parameter lambda does need to define the input : it can be used
+    val lambda2 : (Int) -> Int = {x -> x*x}
+    val lambda3 : (Int) -> Int = {it * it}
 }
